@@ -28,6 +28,11 @@
 	backface-visibility: hidden;
 }
 
+.section-stories {
+	padding: 15rem 0;
+	
+}
+
 .story__text {
 	transform: skewX(12deg);
 }

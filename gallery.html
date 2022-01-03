@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>За нас</title>
+	<link href="gallery.css" rel="stylesheet">
+	<link href="base.css" rel="stylesheet">
+	<link href="style.css" rel="stylesheet">
+	
+
+</head>
+<body>
+	 
+         <div class="header_logo-box">
+            <img class= "header_logo" src="img/logo-white.png">
+         </div>
+         <div class="header__nav">
+         	<a href="index.html" class="header__nav-item">Начало</a>
+      <a href="reviews.html" class="header__nav-item">Ревюта</a>
+        <a href="reservation.html" class="header__nav-item">Резервация</a>
+          <a  href="packets.html" class="header__nav-item">Пакети</a>
+            <a href="gallery.html" class="header__nav-item">За нас</a>
+         </div>
+         <div class="text-container">
+            <h2 class="heading-secondary mt-100 mb-30">
+              Кои сме ние?
+            </h2>
+        
+          <h3 class="heading-tertiary u-margin-bottom-small">Нашата концепция</h3>
+                  <p class="paragraph">
+                     Любовта към красотите на природата в съвместност с едно от усещанията, които доставя удоволствие на някои хора-адреналинът, прави една страхотна комбинация, която малко могат да предложат. След усъдрдно проучване установихме, че много хора всъщност търсят тази тръпка. Устремно решихме да създадем своя компания, като предлагаме едни от най-добрите дестинации за почивка и приключения. Разбира се не сме наблягали само на едно или две приключения и разбира се не са еднакво трудни. Точно заради това разпределихме трудностите в отделни пакети, за да може да се насладят както новобранците в тази сфера, така и по-опитните. Всеки пакет е различен по себе си и предлага различни дестинации, които сме описали в следващия параграф 
+                  </p>
+                   <h3 class="heading-tertiary u-margin-bottom-small">Пакетна информация</h3>
+                  <p class="paragraph">
+                    Както вече казахме по-горе пакетите са разделени на различни трудности. Ако сте човек, който обича водата, морето и безкрайната гледка то "Морски изследовател" е точно за вас. От трите пакета този е най-лесният по трудност, като включва круизно пътешествие до Италия(няма да назоваваме къде точно именно, защото идеята е да бъде изненада), където ще се впуснете с екскурзоводите си към плаване с кайтове, както и много други занимания както на плажа, така и на кораба. Вторият пакет "Горски любител" е със средна трудност и включва ориентиране с компас в горите на Амазонка(в зона оградена и наблюдавана от нас, в която няма да бъдете нападнати или изядени :)). Също така вклюва каране на ATV, както и изкачване по хълмиста местност, откриваща невероятна гледка на върха си. Третият пакет, който е и най-труден "Снежният приключенец" ще Ви отведе до планината Урал, където ви чака изкачване в студ и лед, спане на палатки, невероятно вкусна храна осигурена от нас(както и всичко останало, освен дрехите, които Вие трябва да носите), препоръчваме да сте топло облечени с възможно по-дебели дрехи, защото планината не прощава да бъдете облечени за снимка в Инстаграм!
+                  </p>
+              </div>
+	<div class="full-img" id="fullImgBox">
+       <img src="img/lib-nat-1.jpg" id="fullImg">
+       <span onclick="closeFullImg()">X</span>
+	</div>
+<div class="img-gallery">
+	<img src="img/lib-nat-1.jpg"  onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-2.jpg"  onclick="openFullImg(this.src)">
+    <img src="img/lib-nat-3.jpg" onclick="openFullImg(this.src)">
+    <img src="img/lib-nat-4.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-5.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-6.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-7.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-8.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-9.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-10.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-11.jpg" onclick="openFullImg(this.src)">
+	<img src="img/lib-nat-12.jpg" onclick="openFullImg(this.src)">
+</div>
+<script>
+	var fullImgBox=document.getElementById("fullImgBox");
+	var fullImg=document.getElementById("fullImg");
+	function openFullImg(pic){
+		fullImgBox.style.display="flex"
+		fullImg.src=pic;
+	}
+	function closeFullImg(){
+		fullImgBox.style.display="none";
+	}
+</script>
+
+</body>
+</html>

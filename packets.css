@@ -2,11 +2,11 @@
 	perspective: 150rem;
 	-moz-perspective: 150rem;
 	position: relative;
-	height: 52rem;
+	height: 60rem;
 }
 
 .card__side {
-	height: 52rem;
+	height: 60rem;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -76,8 +76,8 @@
 
 .card__details ul {
 	list-style: none;
-	width: 80%;
 	margin: 0 auto;
+	padding-left: 0;
 }
 
 .card__details ul li {
@@ -92,4 +92,32 @@
 
 .card__details {
 	padding: 1rem;
+	margin-top: 20px;
+}
+.price-button{
+	padding: 10px 15px;
+	color: white;
+	margin-top: 20px;
+	width: 30%;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.price-container{
+    text-align: center;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+.price-button__orange{
+	background-color:  rgba(255, 185, 0, 1);
+}
+.price-button__green{
+	background-color:   rgba(126, 213, 111, 1);
+}
+.price-button__blue{
+	background-color:   rgba(41, 152, 255, 1);
 }
