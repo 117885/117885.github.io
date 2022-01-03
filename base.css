@@ -200,7 +200,7 @@ body {
 	width: 150px;
 	text-align: center;
 	text-transform: uppercase;
-	text-decoration: none;
+	text-decoration: none!important;
 
  
 }
